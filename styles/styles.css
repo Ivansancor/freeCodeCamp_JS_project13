@@ -1,0 +1,77 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ec9168;
+    color: black;
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 5rem 0 3rem;
+}
+
+.input-div, .output-div {
+    background-color: burlywood;
+    padding: 1rem;
+    text-align: center;
+}
+
+.input-div {
+    margin-bottom: 2rem;
+    border: 0.1rem solid black;
+}
+
+.input-div label, .input-div input {
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+.input-div input, .input-div button {
+    width: 90%;
+    height: 4rem;
+    font-size: 2rem;
+}
+
+.input-div input {
+    padding-left: 1rem;
+    background-color: #ec9168;
+}
+
+.input-div button {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: rgb(76, 33, 114);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+
+.input-div button:hover, .input-div button:focus {
+    color: rgb(76, 33, 114);
+    background-color: white;
+    border: 0.2rem solid rgb(76, 33, 114);
+}
+
+.output-div {
+    border: 0.2rem solid black;
+    font-weight: 600;
+}
+
+.hidden {
+    display: none;
+}
